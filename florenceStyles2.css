@@ -1,0 +1,222 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 15, 2017, 12:14:47 PM
+    Author     : Elizabeth
+*/
+@font-face{
+    font-family: quattrocentoRegular;
+    src: url(fonts/QuattrocentoSans-Regular.ttf);
+}
+@font-face{
+    font-family: quattrocentoBold;
+    src: url(fonts/QuattrocentoSans-Bold.ttf);
+}
+
+header{
+    color: blue;     
+    height: auto;
+    padding: 0;
+    border-bottom: 2px solid gold;
+    margin-bottom: 1vh;
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: stretch;
+}
+header li{
+    display: inline;
+    padding-right: 20px;
+    font-family: quattrocentoBold;    
+    font-size: 1em;
+    color: blue;
+}
+header ul{
+    list-style-type: none;    
+   /* margin-right: 5vw; */
+}
+
+footer{
+    border-top: 2px solid gold;
+    color: blue;
+    padding: 0px;
+    margin-top: 1vh;
+    display: flex;
+    flex-flow: row nowrap;
+   
+}
+footer ul{    
+    list-style-type: none;
+    font-family: quattrocentoRegular;
+    font-size: 1em;
+    padding: 1vw;
+    line-height: 1.5em;
+    display: inline-table;
+    margin-bottom: 3vh;
+}
+footer h4{    
+    font-family: quattrocentoBold;
+    font-size: 1.5em;
+   }
+
+
+body{    
+    font-family: quattrocentoRegular; 
+    background-color: white;
+}
+article{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: stretch;       
+    max-width: 95vw;
+    margin-top: 2vh;
+}
+div{ 
+    display: block;
+    width: 95%;
+    border: none; 
+    margin-left: 1vw;
+}
+section{
+    margin-top: 1em;     
+}
+.neighborhood{
+    border-top: 1px solid gold;
+    padding: 1em;
+}
+.neighborhood:first-of-type{
+    border-top: none;
+}
+.aside{     
+    max-width: 20vw;
+    padding: 1em;
+    margin-left: 5em;    
+}
+
+.aside h2{    
+    margin-bottom: 1.5em;
+    padding-top: 1em;
+    padding-left: 1em;
+    border-top: 3px solid gold;
+    border-left: 3px solid gold;        
+}
+.aside p{
+    margin-left: 1em;
+    font-size: 1em;
+    color: darkblue;
+}
+.aside section{
+    margin-top: 5em;
+    margin-bottom: 10em;
+    display: block;
+    box-shadow: 5px 5px 10px lightgray;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-top: 0.5em;
+}
+#mainNav{
+    max-width: 12vw;
+    min-width: 10vw;    
+}
+    
+#mainNav ul{
+    list-style: none;
+    line-height: 2em;
+    font-family: quattrocentoBold;
+    color: blue;
+}
+img{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: auto;        
+}
+h2{
+    display: block;
+    padding: 5px;
+    font-family: quattrocentoRegular;
+    font-size: 1.5em;
+    color: blue;
+    width: fit-content;
+    margin: 0px;
+}
+h3{
+    font-family: quattrocentoRegular;
+    font-size: 1.5em;
+    color: #333333;
+    padding-bottom: 5px;
+}
+
+h1{    
+    font-family: quattrocentoRegular;
+    font-size: 2em;
+    color: blue;  
+    margin-left: 2vw;
+    display: block;   
+}
+
+a[href]:link, a[href]:visited {
+    color: blue;
+    text-decoration: none;
+    padding: 5px;  /*this keeps the links from jumping around on hover*/    
+}
+a[href]:hover {
+    
+    text-decoration: underline; 
+    padding: 5px;
+}
+.area_description{
+    color: #111111;
+    font-size: 1em;    
+    width: 85%;    
+    margin: 0 auto;
+}
+.sites{
+    width: 75%;
+    margin: 0 auto;
+}
+.sites img{
+    margin-bottom: 7px;
+}
+.aside img{
+    width: 90%;
+    margin-left: 1em;
+}
+table{
+    border-collapse: collapse;
+}
+td, th{    
+    text-align: left;
+    padding: 5px;
+}
+td{
+    border:1px solid #dddddd;
+}
+tr:nth-child(even){
+    background-color: #EEF6F9;
+}
+.itinerary{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.itinerary iframe{    
+    width: 50%;
+}
+.itinerary ul{
+    width: 70%;
+    list-style-type: circle;
+    line-height: 2em;
+ }
+ .itinerary li{
+    font-size: 1.5em;
+ } 
+ .eateries ul{
+     list-style-type: none;
+     line-height: 2em;
+ }
+ .eateries li{
+     font-size: 1.5em;
+ }
